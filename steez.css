@@ -1,0 +1,131 @@
+/* GENERAL */
+
+body {
+    background-color: rgba(255, 228, 196, 0.6);
+}
+
+/* SPECIFICS */
+.hp {
+    background-image: url('imgs/stew.webp');
+    background-size: cover;
+    align-items: center;
+}
+
+/* DIVS */
+.contain {
+    width: auto;
+    height: 5.45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: thistle;
+    margin: 0%;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+}
+
+.flex-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    border-top: 0.2rem solid slategray;
+    border-bottom: 0.2rem solid slategray;
+
+}
+
+.contain-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-deco {
+    text-align: center;
+    padding: 2rem;
+    border: 3px solid thistle;
+}
+
+.text-deco:hover {
+    text-align: center;
+    padding: 2rem;
+    border: 3px groove tomato;
+    background-color: rgba(216, 191, 216, 0.25);
+}
+
+.text-simple{
+    padding: 1rem;
+}
+
+.homepage-special{
+    text-align: center;
+}
+
+/* TEXT */
+.bttn {
+    font-size: 1.15rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 2px;
+    border: 2px solid tomato;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+.bttn:hover {
+    font-size: 1.15rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 2px;
+    border: 2px dotted slategray;
+    font-style: normal;
+    color: tomato;
+    text-decoration: none;
+}
+
+.big-bttn {
+    font-size: 2.15rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+.question{
+    font-size: 4rem;
+    color: whitesmoke;
+}
+
+.answer {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+/* UTILS */
+.small-space {
+    margin: 2rem;
+}
+
+.mid-space {
+    margin: 5rem;
+}
+
+.big-space {
+    margin: 10rem;
+}
+
+.line {
+    height: 3rem;
+    width: 1rem;
+    margin: 1rem;
+}
